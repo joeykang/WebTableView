@@ -12,3 +12,6 @@ Requirements:
 Tasks Done:
 - AFNetworking, UIKit+AFNetworking folders are added to this project
 - Generate JSON request string for Google Places Search
+
+Lessons here:
+
