@@ -84,8 +84,10 @@
     cell.textLabel.text = [tempDic objectForKey:@"name"];
     UIImage *placeholderImage = [UIImage imageNamed:@"placeholder"];
     
+    // Method 1
     //[cell.imageView setImageWithURL:[NSURL URLWithString:[tempDic objectForKey:@"icon"]] placeholderImage:placeholderImage];
     
+    // Method 2 : async
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[tempDic objectForKey:@"icon"]]];
     __weak UITableViewCell *weakCell = cell;
     [cell.imageView setImageWithURLRequest: request
