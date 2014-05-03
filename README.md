@@ -7,7 +7,7 @@ Goal:
 Requirements:
 - AFNetworking 2.0
 - JSON Parsing
-- Google Places API Key
+- Google Places Search API Key
 
 Tasks Done:
 - AFNetworking, UIKit+AFNetworking folders are added to this project
